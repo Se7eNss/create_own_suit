@@ -3,10 +3,10 @@ import './preview.css'
 const Preview = () => {
     return (
         <div className="col-6" >
-            <img src="/asset/default-img/preview-default.png" alt=""  />
+            <img src="https://gentux.imgix.net/look-builder/gentux/v80/130074BLK-jacket_front.png" />
             <div></div>
             <div></div>
-            <div>tayipztrk</div>
+            <div></div>
         </div>
     )
 }
