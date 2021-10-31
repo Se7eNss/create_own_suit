@@ -1,0 +1,18 @@
+.jacket-wrapper{
+    height: 400px;
+    position: absolute;
+    z-index: 20;
+}
+.jacket-wrapper>img{
+    height: 100%;
+}
+.pants-wrapper{
+    height: 400px;
+    position: absolute;
+}
+.pants-wrapper>img{
+    height: 100%;
+}
+.btn{
+    z-index: 200 !important;
+}

@@ -1,0 +1,18 @@
+.filter-container{
+    overflow-x: hidden;
+    cursor: pointer;
+    padding: 16px;
+    text-align: left;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.filter-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.45px;
+}
