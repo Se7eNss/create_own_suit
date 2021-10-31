@@ -12,6 +12,7 @@ import { changeCategory } from '../../../slices/jacket';
 const Preview = () =>  {
     const dispatch =useDispatch();
     return (
+
         <div className="col-5">
             <div className="img-wrapper ">
                 <button onClick={()=>dispatch(changeCategory({category:'vest'}))}>sadas</button>
@@ -23,6 +24,12 @@ const Preview = () =>  {
                 <VestAndCummerbund/>
                 <Belt/>
             </div>
+
+        <div className="col-6" >
+            <img src="https://gentux.imgix.net/look-builder/gentux/v80/130074BLK-jacket_front.png" />
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     )
 }
