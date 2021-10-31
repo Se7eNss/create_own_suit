@@ -1,0 +1,36 @@
+[
+            {
+                "category":"jacket",
+                "name": "black jacket",
+                "price": "139",
+                "preview_full_url": "/asset/preview/jackets/130069BLK-jacket_full.png",
+                "preview_front_url": "/asset/preview/jackets/130069BLK-jacket_front.png",
+                "galery_url": "/asset/galery/jacket-pants/1604727582_BlackNotchSuitHero20201107.png",
+                "pants_url": "/asset/preview/pants/230134BLK-pants.png"
+            },
+            {
+                "category":"jacket",
+                "name": "blue jacket",
+                "price": "150",
+                "preview_full_url": "/asset/preview/jackets/130935MYB-jacket_full.png",
+                "preview_front_url": "/asset/preview/jackets/130935MYB-jacket_front.png",
+                "galery_url": "/asset/galery/jacket-pants/1604728944_MysticBlueTuxHero20201107.png",
+                "pants_url": "/asset/preview/pants/231472BLC-pants.png"
+            },
+            {
+                "category":"vest",
+                "name": "black vest",
+                "price": "29",
+                "preview_full_url": "/asset/preview/vests/430463BLK-vest_full.png",
+                "preview_front_url": "/asset/preview/vests/430463BLK-vest_front.png",
+                "galery_url": "/asset/galery/vests/1628539405_VCDarkBrownVest.jpg"
+            },
+            {   
+                "category":"vest",
+                "name": "white vest",
+                "price": "29",
+                "preview_full_url": "/asset/preview/vests/431502BGE-vest_full.png",
+                "preview_front_url": "/asset/preview/vests/431502BGE-vest_front.png",
+                "galery_url": "/asset/galery/vests/1523286837_431474CMT-vest-front-0950.jpg"
+            }
+        ]

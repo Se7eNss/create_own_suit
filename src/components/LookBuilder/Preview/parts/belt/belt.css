@@ -1,0 +1,8 @@
+.belts-wrapper{
+    height: 400px;
+    position: absolute;
+    z-index: 20;
+}
+.belts-wrapper>img{
+height: 100%;
+}

@@ -1,0 +1,8 @@
+.shoes-wrapper{
+    height: 400px;
+    position: absolute;
+    z-index: 10;
+}
+.shoes-wrapper>img{
+height: 100%;
+}

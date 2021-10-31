@@ -1,0 +1,19 @@
+.footer-container{
+    
+    margin-top: .3rem;
+    cursor: pointer;
+    padding: 4px;
+    text-align: left;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.icons{
+    padding: 16px 32px;
+    border: 1px solid rgb(197, 197, 197);
+    font-size: 3em;
+}

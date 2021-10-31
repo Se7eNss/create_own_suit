@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
 import LookBuilder from './components/LookBuilder';
-
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <LookBuilder/>
     </div>
   );

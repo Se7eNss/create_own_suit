@@ -1,0 +1,8 @@
+.vest-wrapper{
+    height: 400px;
+    position: absolute;
+    z-index: 15;
+}
+.vest-wrapper>img{
+height: 100%;
+}
