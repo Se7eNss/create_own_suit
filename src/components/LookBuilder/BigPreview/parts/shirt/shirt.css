@@ -1,0 +1,40 @@
+.up{
+    height: 420px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.bprv_shirt_wrapper{
+    height: 100%;
+    background-size: 400px;
+    background-position: -60px 10px;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+} 
+.pointer:hover .bprv_shirt_wrapper{
+    filter: brightness(105%);
+}
+.pointer:hover .header-up{
+    background: white;
+}
+.header-up{
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    width:40px ;
+    margin-left: 7.5rem;
+    transition: all 0.3s;
+}
+.header-up>hr{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.header-up::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(154, 103, 0);
+}

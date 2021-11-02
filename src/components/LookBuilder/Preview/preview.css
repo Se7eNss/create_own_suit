@@ -1,10 +1,15 @@
 .img-wrapper{
     position: relative;
     margin-top: 90px ;
-    margin-left: 200px;
+    margin-left: 150px;
     height: 400px;
     width: 300px;
+    cursor: pointer;
+    transition: all 0.3s;
     
+}
+.img-wrapper:hover {
+    filter: brightness(120%) !important;
 }
 .col-6{
     height: 500px;

@@ -8,13 +8,15 @@ import Socks from './parts/socks/Socks'
 import VestAndCummerbund from './parts/vest-and-cummebund/VestAndCummerbund'
 import Belt from './parts/belt/Belt'
 import { useDispatch, useSelector } from "react-redux";
-import { changeCategory } from '../../../slices/jacket';
+import { changebigPreivew} from '../../../slices/jacket';
 const Preview = () =>  {
+    const handleClick=()=>{
+        dispatch(changebigPreivew({bigPreview:true}))
+    }
     const dispatch =useDispatch();
     return (
-        <div className="col-5">
-            <div className="img-wrapper ">
-                <button onClick={()=>dispatch(changeCategory({category:'vest'}))}>sadas</button>
+        <div className="col-lg-5">
+            <div className="img-wrapper " onClick={handleClick}>
                 <JacketAndPants />
                 <Shirt/>
                 <Tie/>

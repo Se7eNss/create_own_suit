@@ -11,7 +11,7 @@ const JacketAndPants:React.FC = () => {
     return (
         <>
         <div className="jacket-wrapper ">
-            <img src={jacket.j_preview_front_url}  alt="" />
+            <img src={jacket.preview_front_url}  alt="" />
         </div>
         <div className="pants-wrapper ">
         <img src="/asset/default-img/hanger.png" alt="" />

@@ -1,7 +1,7 @@
 .tie-wrapper{
     height: 400px;
     position: absolute;
-    z-index: 10;
+    z-index: 14;
 }
 .tie-wrapper>img{
 height: 100%;

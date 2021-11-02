@@ -1,0 +1,37 @@
+.bprv_belt_wrapper{
+    height:100px;
+    width: 190px;
+    background-size: 400px ;
+    background-repeat: no-repeat;
+    background-position:70% -460px;
+    transition: all 0.3s;
+}
+.pointer:hover .bprv_belt_wrapper{
+    filter: brightness(115%);
+}
+.pointer:hover .header-belt{
+    background-color:white;
+}
+.header-belt{
+    margin-top: -10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    width: 120px;
+    margin-left:1.5rem;
+    transition: all 0.3s;
+}
+.header-belt>hr{
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 0px;
+}
+.header-belt::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(154, 103, 0);
+}

@@ -13,7 +13,7 @@ const Galery = () => {
         const {category} = useSelector((state:TStore)=>state.jacketReducer)
         console.log(suit)
     return (
-        <div className="col-7 p-4 ">
+        <div className="col-lg-7 p-4 ">
             <div className="row">
                 <Header/>
                 <Filter/>

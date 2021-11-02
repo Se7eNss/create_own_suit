@@ -1,0 +1,36 @@
+.bprv_jacket_wrapper{
+    width: 120%;
+    height: 100%;
+    background-size: 400px;
+    background-position: -10px 10px;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+.pointer:hover .bprv_jacket_wrapper{
+    filter: brightness(120%);
+}
+.pointer:hover .header-up-J{
+    background: white;
+}
+.header-up-J{
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    width: 90px;
+    margin-left: 95px;
+    transition: all 0.3s;
+}
+
+.header-up-J>hr{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.header-up-J::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(154, 103, 0);
+}
