@@ -1,0 +1,41 @@
+.pointer-socks{
+    cursor: pointer;
+}
+.bprv_socks_wrapper{
+  height:100px;
+  width: 90px;
+  background-size: 370px ;
+  background-repeat: no-repeat;
+  background-position:6% -70px;
+  transition: all 0.3s;
+  
+}
+.pointer-socks:hover .bprv_socks_wrapper{
+    filter: brightness(115%);
+}
+.pointer-socks:hover .header{
+    background-color: white;
+}
+
+.header{
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    width: 35px;
+    margin-left:1.4rem;
+    transition:  all 0.3s;
+}
+.header>hr{
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 0px;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(154, 103, 0);
+}

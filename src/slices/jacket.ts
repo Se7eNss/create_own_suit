@@ -1,30 +1,84 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 type TPayload = {
-    name:string | null;
-    price:string | null;
-    preview_front_url: string | null;
-    pants_url:string | null;
-    preview_full_url:string | null;
+    name:string ;
+    price:string ;
+    preview_front_url: string ;
+    pants_url:string ;
+    preview_full_url:string ;
+  };
+  type TPayloadShirt = {
+    name:string ;
+    price:string ;
+    preview_full_url: string ;
+    preview_tail_url:string ;
+    preview_collar_url:string ;
+  };
+type TPayloadVest = {
+    name:string ;
+    price:string ;
+    preview_front_url: string ;
+    preview_full_url:string ;
+  };
+  type TPayloadOther = {
+    name:string ;
+    price:string ;
+    preview_full_url:string ;
   };
 type TCategory ={
   category:string;
 }
+type TPreview ={
+  bigPreview:boolean;
+}
   const initialState = {
+    bigPreview:false,
     category:"jacket",
     jacket:{
         name:"",
         price:"",
-        j_preview_full_url:"",
-        j_preview_front_url:"",
+        preview_full_url:"/asset/default-img/default-jacket.png",
+        preview_front_url:"",
         galery_url:"",
-        pants_url:''
+        pants_url:""
+    },
+    shirt:{
+        name:"",
+        price: "",
+        preview_full_url: "/asset/default-img/default-shirt.png",
+        preview_tail_url: "",
+        preview_collar_url: "",
+        galery_url: ""
     },
     vest:{
       name:"",
       price:"",
-      preview_full_url:"",
+      preview_full_url:"/asset/default-img/default-vest.png",
       preview_front_url:"",
+      galery_url:"",
+    },
+    tie:{
+      name:"",
+      price:"",
+      preview_full_url:"/asset/default-img/default-tie.png",
+      galery_url:"",
+    },
+    socks:{
+      name:"",
+      price:"",
+      preview_full_url:"/asset/default-img/default-socks.png",
+      galery_url:"",
+    },
+    belt:{
+      name:"",
+      price:"",
+      preview_full_url:"/asset/default-img/default-belt.png",
+      galery_url:"",
+    },
+    shoes:{
+      name:"",
+      price:"",
+      preview_full_url:"/asset/default-img/default-shoes.png",
       galery_url:"",
     }
   };
@@ -33,26 +87,54 @@ const suitSlice = createSlice({
     name:'suit',
     initialState:initialState,
     reducers:{
-        changeSuit:(state, {payload})=>{
-            state.jacket.j_preview_front_url = payload.j_preview_front_url ;
-            state.jacket.pants_url = payload.j_pants_url;
-            state.jacket.name=payload.j_name;
-            state.jacket.price=payload.j_price;
-            state.jacket.j_preview_full_url=payload.j_preview_full_url;
-            state.vest.preview_front_url = payload.preview_front_url;
-            state.vest.name=payload.name;
-            state.vest.price=payload.price;
-            state.vest.preview_full_url=payload.preview_full_url
+        changeSuit:(state, {payload}:PayloadAction<TPayload>)=>{
+            state.jacket.preview_front_url = payload.preview_front_url ;
+            state.jacket.pants_url = payload.pants_url;
+            state.jacket.name=payload.name;
+            state.jacket.price=payload.price;
+            state.jacket.preview_full_url=payload.preview_full_url;
+         
         },
-      //   changeVest:(state, {payload}: PayloadAction<TPayload>)=>{
-      //     state.vest.preview_front_url = payload.preview_front_url;
-      //     state.vest.name=payload.name;
-      //     state.vest.price=payload.price;
-      //     state.vest.preview_full_url=payload.preview_full_url
-      // },
-      changeCategory:(state, {payload}: PayloadAction<TCategory>)=>{
-        state.category=payload.category
-    }
+        changeShirt:(state, {payload}:PayloadAction<TPayloadShirt>)=>{
+          state.shirt.preview_collar_url = payload.preview_collar_url ;
+          state.shirt.preview_tail_url = payload.preview_tail_url;
+          state.shirt.name=payload.name;
+          state.shirt.price=payload.price;
+          state.shirt.preview_full_url=payload.preview_full_url;
+       
+      },
+        changeVest:(state, {payload}:PayloadAction<TPayloadVest>)=>{
+          state.vest.preview_front_url = payload.preview_front_url;
+          state.vest.name=payload.name;
+          state.vest.price=payload.price;
+          state.vest.preview_full_url=payload.preview_full_url
+          },
+        changeTie:(state, {payload}:PayloadAction<TPayloadOther>)=>{
+          state.tie.name=payload.name;
+          state.tie.price=payload.price;
+          state.tie.preview_full_url=payload.preview_full_url
+          },
+        changeSocks:(state, {payload}:PayloadAction<TPayloadOther>)=>{
+          state.socks.name=payload.name;
+          state.socks.price=payload.price;
+          state.socks.preview_full_url=payload.preview_full_url
+          },
+        changeBelt:(state, {payload}:PayloadAction<TPayloadOther>)=>{
+          state.belt.name=payload.name;
+          state.belt.price=payload.price;
+          state.belt.preview_full_url=payload.preview_full_url
+          },
+        changeShoes:(state, {payload}:PayloadAction<TPayloadOther>)=>{
+          state.shoes.name=payload.name;
+          state.shoes.price=payload.price;
+          state.shoes.preview_full_url=payload.preview_full_url
+          },
+        changeCategory:(state, {payload}: PayloadAction<TCategory>)=>{
+          state.category=payload.category
+          },
+        changebigPreivew:(state, {payload}: PayloadAction<TPreview>)=>{
+            state.bigPreview=payload.bigPreview
+          }
     },
 });
 
@@ -60,6 +142,6 @@ const suitSlice = createSlice({
 
 
   export const jacketReducer = suitSlice.reducer;
-  export const {changeSuit,changeCategory} = suitSlice.actions
+  export const {changeSuit,changeCategory,changeVest,changeTie,changeSocks,changeBelt, changeShoes,changeShirt,changebigPreivew} = suitSlice.actions
 
 

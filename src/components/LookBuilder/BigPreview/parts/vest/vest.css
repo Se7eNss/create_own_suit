@@ -1,0 +1,34 @@
+.bprv_vest_wrapper{
+        height: 350px;
+        background-size: 400px;
+        background-position: -112px 10px;
+        background-repeat: no-repeat;
+        transition: all 0.3s;
+}
+.pointer-socks:hover .bprv_vest_wrapper{
+    filter: brightness(120%);
+}
+.pointer-socks:hover .header-up-v{
+    background-color: white;
+}
+.header-up-v{
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+    width: 120px;
+    margin-left: 1.5rem;
+    transition: all 0.3s;
+}
+.header-up-v>hr{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.header-up-v::after {
+    content: "";
+    position: absolute;
+    margin-left: -5px;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(154, 103, 0);
+}

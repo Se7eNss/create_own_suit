@@ -18,6 +18,33 @@
                 "pants_url": "/asset/preview/pants/231472BLC-pants.png"
             },
             {
+                "category":"jacket",
+                "name": "black Peak",
+                "price": "140",
+                "preview_full_url": "/asset/preview/jackets/130074BLK-jacket_full.png",
+                "preview_front_url": "/asset/preview/jackets/130074BLK-jacket_front.png",
+                "galery_url": "/asset/galery/jacket-pants/1604728306_BlackPeakTuxHero20201107.png",
+                "pants_url": "/asset/preview/pants/230139BLK-pants.png"
+            },
+            {
+                "category":"jacket",
+                "name": "Navy blue jacket",
+                "price": "170",
+                "preview_full_url": "/asset/preview/jackets/130071BLU-jacket_full.png",
+                "preview_front_url": "/asset/preview/jackets/130071BLU-jacket_front.png",
+                "galery_url": "/asset/galery/jacket-pants/1604729021_NavyBlueSuitHero20201107.png",
+                "pants_url": "/asset/preview/pants/2230136BLU-pants.png"
+            },
+            {
+                "category":"jacket",
+                "name": "British jacket",
+                "price": "160",
+                "preview_full_url": "/asset/preview/jackets/131472BTN-jacket_full.png",
+                "preview_front_url": "/asset/preview/jackets/131472BTN-jacket_front.png",
+                "galery_url": "/asset/galery/jacket-pants/1604728520_BritishTanSuitHero20201107.png",
+                "pants_url": "/asset/preview/pants/231476BTN-pants.png"
+            },
+            {
                 "category":"vest",
                 "name": "black vest",
                 "price": "29",
@@ -32,5 +59,241 @@
                 "preview_full_url": "/asset/preview/vests/431502BGE-vest_full.png",
                 "preview_front_url": "/asset/preview/vests/431502BGE-vest_front.png",
                 "galery_url": "/asset/galery/vests/1523286837_431474CMT-vest-front-0950.jpg"
+            },
+            {   
+                "category":"vest",
+                "name": "Blue vest",
+                "price": "32",
+                "preview_full_url": "/asset/preview/vests/430953MYB-vest_full.png",
+                "preview_front_url": "/asset/preview/vests/430953MYB-vest_front.png",
+                "galery_url": "/asset/galery/vests/1539341312_20181009-150631-431399MYB-MysticBlue_Vest_Front.jpg"
+            },
+            {   
+                "category":"vest",
+                "name": "Postman vest",
+                "price": "28",
+                "preview_full_url": "/asset/preview/vests/431478PMB-vest_full.png",
+                "preview_front_url": "/asset/preview/vests/431478PMB-vest_front.png",
+                "galery_url": "/asset/galery/vests/1592515857_431478PMB-Suit_Vest_Postman.jpg"
+            },
+            {   
+                "category":"tie",
+                "name": "Paisley Tie",
+                "price": "14",
+                "preview_full_url": "/asset/preview/ties/910290BLK-tie_full.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/ties/1539608046_20181009-150631-910290BLK_Paisley_Long_PT_Black.jpg"
+            },
+            {   
+                "category":"tie",
+                "name": "Royal Blue Tie",
+                "price": "15",
+                "preview_full_url": "/asset/preview/ties/910297HOR-tie_full.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/ties/1539609034_20181009-150631-910297RYL_Paisley_Long_PT_RoyalBlue.jpg"
+            },
+            {   
+                "category":"tie",
+                "name": "White Tie",
+                "price": "11",
+                "preview_full_url": "/asset/preview/ties/911615MDW-tie_full.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/ties/1542630625_layflat-solid-DBL-desert_blue-long_tie-181115150810.jpg"
+            },
+            {   
+                "category":"tie",
+                "name": "Dark Navy Tie",
+                "price": "14",
+                "preview_full_url": "/asset/preview/ties/911657MAR-tie_full.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/ties/1542630854_layflat-solid-DNV-dark_navy-long_tie-181115144339.jpg"
+            },
+            {   
+                "category":"socks",
+                "name": "Crew Sock",
+                "price": "4",
+                "preview_full_url": "/asset/preview/socks/810300DOG-socks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/socks/1554301096_810300DOG_Sock_Crew_ASPCA_PupSock.jpg"
+            },
+            {   
+                "category":"socks",
+                "name": "Black Sock",
+                "price": "3",
+                "preview_full_url": "/asset/preview/socks/810213BLK-socks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/socks/1539358982_20181009-150631-810213BLK_Sock_OverCalf_Nylon_Black.jpg"
+            },
+            {   
+                "category":"socks",
+                "name": "Black Stripe Sock",
+                "price": "3",
+                "preview_full_url": "/asset/preview/socks/881003BLP-socks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/socks/1570193934_190806 - 011-1 I Do_Black_Stripe Square.jpg"
+            },
+            {   
+                "category":"socks",
+                "name": "Flight Stripe Sock",
+                "price": "5",
+                "preview_full_url": "/asset/preview/socks/881027BLR-socks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/socks/1570195834_190806 - 091-1 Wine Flight_Black_Stripe Square.jpg"
+            },
+            {   
+                "category":"shoes",
+                "name": "Black Matte shoes",
+                "price": "35",
+                "preview_full_url": "/asset/preview/shoes/A10184BMT-shoes.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/shoes/1539360706_20181009-150631-A10184BMT_Shoe_Matte_Black_PVC.jpg"
+            },
+            {   
+                "category":"shoes",
+                "name": "Black Patent Shoes",
+                "price": "30",
+                "preview_full_url": "/asset/preview/shoes/A10185BPT-shoes.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/shoes/1539702152_20181009-150631-A10185BPT_Shoe_Patent_Leather_PVC.jpg"
+            },
+            {   
+                "category":"shoes",
+                "name": "Brown Shoes",
+                "price": "45",
+                "preview_full_url": "/asset/preview/shoes/A10186BRA-shoes.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/shoes/1568841506_190806 - brown shoes GenTux.jpg"
+            },
+            {   
+                "category":"belt",
+                "name": "Black Belt",
+                "price": "15",
+                "preview_full_url": "/asset/preview/belts/B10002BLK-belt.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/belts/1539187720_20181009-150631-B10002BLK_Belts_Black.jpg"
+            },
+            {   
+                "category":"belt",
+                "name": "Brown Belt",
+                "price": "16",
+                "preview_full_url": "/asset/preview/belts/B10903BWN-belt.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/belts/1539187669_20181009-150631-B10903BWN_Belts_BRWN.jpg"
+            },
+            {   
+                "category":"belt",
+                "name": "Suspender",
+                "price": "14",
+                "preview_full_url": "/asset/preview/belts/C30000BLK-suspenders.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/belts/1549474891_20190206-124020-C30000BLK_Suspenders_Black.jpg"
+            },
+            {   
+                "category":"cufflink",
+                "name": "Gold Cufflinks",
+                "price": "4",
+                "preview_full_url": "/asset/preview/cufflinks/030084BKG-cufflinks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/cufflinks/1583351825_product_render-cufflinks-original-gold-black-2020-03-04_12-10-00.jpg"
+            },
+            {   
+                "category":"cufflink",
+                "name": "Silver Cufflinks",
+                "price": "4",
+                "preview_full_url": "/asset/preview/cufflinks/030086WHS-cufflinks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/cufflinks/1583351801_product_render-cufflinks-original-silver-white-2020-03-04_12-20-00.jpg"
+            },
+            {   
+                "category":"cufflink",
+                "name": "Black Cufflinks",
+                "price": "4",
+                "preview_full_url": "/asset/preview/cufflinks/030085BLS-cufflinks.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/cufflinks/1583351762_product_render-cufflinks-original-silver-black-2020-03-04_11-20-00.jpg"
+            },
+            {   
+                "category":"label-pin",
+                "name": "Black Pin",
+                "price": "1",
+                "preview_full_url": "/asset/preview/label-pins/040088BLK-lapel_pin.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/label-pins/1539115647_20181009-150631-040088BLK_Lapel_Flower_Black.jpg"
+            },
+            {   
+                "category":"label-pin",
+                "name": "Blue Pin",
+                "price": "1",
+                "preview_full_url": "/asset/preview/label-pins/040097MBU-lapel_pin.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/label-pins/1539174618_20181009-150631-040097MBU_Lapel_Carnation_Aqua.jpg"
+            },
+            {   
+                "category":"label-pin",
+                "name": "Navy Blue Pin",
+                "price": "1",
+                "preview_full_url": "/asset/preview/label-pins/040102HOR-lapel_pin.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/label-pins/1539174781_20181009-150631-040102RYL_Lapel_Carnation_RoyalBlue.jpg"
+            },
+            {   
+                "category":"pocket-square",
+                "name": "Black Pocket Square",
+                "price": "1",
+                "preview_full_url": "/asset/preview/pocket-squares/610145BLK-pocket_square.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/pocket-squares/1539356083_20181009-150631-611186BLK_PocketSquare_ZigZag_Black.jpg"
+            },
+            {   
+                "category":"pocket-square",
+                "name": "Blue Pocket Square",
+                "price": "1",
+                "preview_full_url": "/asset/preview/pocket-squares/610152MBU-pocket_square.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/pocket-squares/1539356273_20181009-150631-611203PAC_PocketSquare_Plaid_Pacific.jpg"
+            },
+            {   
+                "category":"pocket-square",
+                "name": "Dark Navy Pocket Square",
+                "price": "1",
+                "preview_full_url": "/asset/preview/pocket-squares/610156HOR-pocket_square.png",
+                "preview_front_url": "",
+                "galery_url": "/asset/galery/pocket-squares/1539356556_20181009-150631-611204DNV_PocketSquare_Plaid_DarkNavy.jpg"
+            },
+            {
+                "category":"shirt",
+                "name": "White Shirt",
+                "price": "30",
+                "preview_full_url": "/asset/preview/shirts/330172IVO-shirt_full.png",
+                "preview_tail_url": "/asset/preview/shirts/330172IVO-shirt_tail.png",
+                "preview_collar_url": "/asset/preview/shirts/330172IVO-shirt_collar.png",
+                "galery_url": "/asset/galery/shirts/1523286462_331417PRM_Shirt_Microcheck.jpg"
+            },
+            {
+                "category":"shirt",
+                "name": "Pink Shirt",
+                "price": "31",
+                "preview_full_url": "/asset/preview/shirts/331415PNK-shirt_full.png",
+                "preview_tail_url": "/asset/preview/shirts/331415PNK-shirt_tail.png",
+                "preview_collar_url": "/asset/preview/shirts/331415PNK-shirt_collar.png",
+                "galery_url": "/asset/galery/shirts/1523286460_331415PNK_Shirt_Pink.jpg"
+            },
+            {
+                "category":"shirt",
+                "name": "Blue Shirt",
+                "price": "32",
+                "preview_full_url": "/asset/preview/shirts/331416TQG-shirt_full.png",
+                "preview_tail_url": "/asset/preview/shirts/331416TQG-shirt_tail.png",
+                "preview_collar_url": "/asset/preview/shirts/331416TQG-shirt_collar.png",
+                "galery_url": "/asset/galery/shirts/1523286461_331416TQG_Shirt_Gingham.jpg"
+            },
+            {
+                "category":"shirt",
+                "name": "Navy Shirt",
+                "price": "33",
+                "preview_full_url": "/asset/preview/shirts/331419BLH-shirt_full.png",
+                "preview_tail_url": "/asset/preview/shirts/331419BLH-shirt_tail.png",
+                "preview_collar_url": "/asset/preview/shirts/331419BLH-shirt_collar.png",
+                "galery_url": "/asset/galery/shirts/1523286463_331419BLH_Shirt_Honeycomb.jpg"
             }
         ]
