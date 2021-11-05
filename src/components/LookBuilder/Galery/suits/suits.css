@@ -173,6 +173,7 @@
   right: 16px;
   background-color: rgb(199, 199, 199);
   padding: 4.5px 8px;
+  transition: all 0.5s;
 }
 .v-search-icon:hover {
   background-color: #fff;

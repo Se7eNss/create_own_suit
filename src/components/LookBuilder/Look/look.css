@@ -30,6 +30,7 @@
   color: #000;
   cursor: pointer;
   transition: all 0.15s ease 0s;
+  margin-bottom: 0.3rem;
 }
 .selected-suits:hover {
   box-shadow: 1px 0px 71px -22px rgba(0, 0, 0, 0.2);
@@ -83,11 +84,13 @@
   color: #adadad;
 }
 .delete-icon {
+  position: relative;
+  background: transparent;
   font-size: 13px;
 }
 
 .unselected-suits {
-  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

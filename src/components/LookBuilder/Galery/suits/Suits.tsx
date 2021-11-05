@@ -14,29 +14,29 @@ export default function Suits() {
     const dispatch = useDispatch();
     const { category, jacket, vest } = useSelector((state: TStore) => state.jacketReducer);
 
-    const handleClick = (j: string | any, c: string, p: string | any, n: string, pr: string, scol: string | any, stail: string | any) => {
+    const handleClick = (j: string | any, c: string, p: string | any, n: string, pr: string, scol: string | any, stail: string | any, g:string) => {
 
         if (category === 'jacket') {
-            dispatch(changeSuit({ preview_front_url: j, preview_full_url: c, pants_url: p, name: n, price: pr }))
+            dispatch(changeSuit({ preview_front_url: j, preview_full_url: c, pants_url: p, name: n, price: pr ,galery_url:g }))
         }
         if (category === 'shirt') {
-            dispatch(changeShirt({ preview_collar_url: scol, preview_tail_url: stail, preview_full_url: c, name: n, price: pr }))
+            dispatch(changeShirt({ preview_collar_url: scol, preview_tail_url: stail, preview_full_url: c, name: n, price: pr ,galery_url:g}))
 
         }
         if (category === 'vest') {
-            dispatch(changeVest({ preview_front_url: j, preview_full_url: c, name: n, price: pr }))
+            dispatch(changeVest({ preview_front_url: j, preview_full_url: c, name: n, price: pr ,galery_url:g}))
         }
         if (category === 'tie') {
-            dispatch(changeTie({ preview_full_url: c, name: n, price: pr }))
+            dispatch(changeTie({ preview_full_url: c, name: n, price: pr ,galery_url:g }))
         }
         if (category === 'socks') {
-            dispatch(changeSocks({ preview_full_url: c, name: n, price: pr }))
+            dispatch(changeSocks({ preview_full_url: c, name: n, price: pr ,galery_url:g }))
         }
         if (category === 'belt') {
-            dispatch(changeBelt({ preview_full_url: c, name: n, price: pr }))
+            dispatch(changeBelt({ preview_full_url: c, name: n, price: pr ,galery_url:g}))
         }
         if (category === 'shoes') {
-            dispatch(changeShoes({ preview_full_url: c, name: n, price: pr }))
+            dispatch(changeShoes({ preview_full_url: c, name: n, price: pr ,galery_url:g}))
         }
     }
 
@@ -45,12 +45,12 @@ export default function Suits() {
     }
     return (
         <div className="suits-container col-12">
-            <div className="suits none" onClick={() => { handleClick('',` /asset/default-img/default-${category}.png`, '', '', '', '', '');}}>
+            <div className="suits none" onClick={() => { handleClick('',` /asset/default-img/default-${category}.png`, '', '', '', '', '','');}}>
                 <div className={category === 'jacket' ? ("none-icon"): ("v-none-icon")}><AiOutlineClear className="icon" /></div>
                 <div className="comment">None</div>
             </div>
             {suit.filter(a => a.category === category).map((j) => (
-                <div className="suits" onClick={() => {handleClick(j.preview_front_url, j.preview_full_url, j.pants_url, j.name, j.price, j.preview_collar_url, j.preview_tail_url); changeLook(j)}} >
+                <div className="suits" onClick={() => {handleClick(j.preview_front_url, j.preview_full_url, j.pants_url, j.name, j.price, j.preview_collar_url, j.preview_tail_url,j.galery_url); changeLook(j)}} >
                     {category === 'jacket' ? [
                         selectedSuit === j.preview_full_url ?(
                             <>  
