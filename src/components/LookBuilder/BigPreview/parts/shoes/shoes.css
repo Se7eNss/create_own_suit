@@ -3,16 +3,14 @@
     cursor: pointer;
     width: 100%;
     height: 10vh;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 .bprv_shoes_wrapper{
-    height:110%;
+    height: 20vh;
     width: 100%;
-    margin-top: -2%;
-    margin-left: 12%;
-    background-size:190% ;
+    background-size: 150%;
+    background-position:13% 97%;
     background-repeat: no-repeat;
-    background-position:12% 93%;
     transition: all 0.3s;
 }
 .pointer:hover .bprv_shoes_wrapper{ 
@@ -25,10 +23,11 @@
 .header-shoes{
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
+    height: 0px;
     width: 25%;
-    margin-top: -10px;
-    margin-left:44%;
+    margin-left:24%;
     transition: all 0.3s;
+    margin-top: 0;
 }
 .header-shoes>hr{
     width: 100%;
@@ -45,3 +44,46 @@
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(154, 103, 0);
 }
+@media only screen and (max-width: 992px) {
+    .pointer-shoes{
+        cursor: pointer;
+        width: 100%;
+        height: 10vh;
+        margin-top: -250px;
+    }
+    .bprv_shoes_wrapper{
+        height: 20vh;
+        width: 100%;
+        background-size: 200%;
+        background-position:13% 97%;
+        background-repeat: no-repeat;
+        transition: all 0.3s;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    .header-shoes{
+        font-family: 'DM Serif Display', serif;
+        font-size: 9px;
+        width: 60%;
+        margin-left:24%;
+        transition: all 0.3s;
+        margin-top: 0;
+    }
+    .pointer-shoes{
+        cursor: pointer;
+        width: 100%;
+        height: 10vh;
+        margin-top: -250px;
+    }
+    .bprv_shoes_wrapper{
+        height: 20vh;
+        width: 120%;
+        margin-top: -7vh;
+        background-size: 200%;
+        background-position:13% 97%;
+        background-repeat: no-repeat;
+        transition: all 0.3s;
+    }
+  
+  }

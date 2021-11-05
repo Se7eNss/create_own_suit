@@ -39,3 +39,32 @@
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(154, 103, 0);
 }
+@media only screen and (max-width: 992px) {
+    .bprv_socks_wrapper{
+        height:50vh;
+        width: 240%;
+        background-size: 200% ;
+        background-repeat: no-repeat;
+        background-position:5% -20px;
+        transition: all 0.3s;
+        
+      }
+  }
+@media only screen and (max-width: 768px) {
+    .header{
+        font-size: 9px;
+        height: 10px;
+        width: 220%;
+        margin-left: 10%;
+        margin-top: -20px;
+    }
+    .bprv_socks_wrapper{
+        height:50vh;
+        width: 240%;
+        background-size: 400% ;
+        background-repeat: no-repeat;
+        background-position:5% -20px;
+        transition: all 0.3s;
+        
+      }
+  }

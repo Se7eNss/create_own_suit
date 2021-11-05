@@ -34,3 +34,18 @@
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(154, 103, 0);
 }
+@media only screen and (max-width: 768px) {
+    .bprv_jacket_wrapper{
+        width: 100%;
+        height: 100%;
+        background-size: 120%;
+        background-position: -10px 0px;
+        background-repeat: no-repeat;
+        transition: all 0.3s;
+    }
+    .header-up-J{
+        font-size: 9px;
+        width: 60%;
+        margin-left: 10%;
+    }
+  }
