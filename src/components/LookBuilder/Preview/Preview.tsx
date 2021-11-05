@@ -28,6 +28,7 @@ const Preview = () =>  {
                 <VestAndCummerbund/>
                 <Belt/>
             </div>
+         </div>
     )
 }
 
