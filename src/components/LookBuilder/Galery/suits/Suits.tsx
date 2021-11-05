@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./suits.css";
 import suits from '../../../../data/suits.json'
 import { useDispatch, useSelector } from "react-redux";
-import { changeSuit, changeCategory, changeVest, changeTie, changeSocks, changeBelt, changeShoes, changeShirt } from '../../../../slices/jacket';
+import { changeSuit, changeCategory, changeVest, changeTie, changeSocks, changeBelt, changeShoes, changeShirt, changebigPreivew } from '../../../../slices/jacket';
 import { AiOutlineClear, AiOutlineSearch ,CgClose,FiCheck } from "react-icons/all";
 import { TStore } from '../../../../store';
 
@@ -13,7 +13,8 @@ export default function Suits() {
     var suit = suits;
     const dispatch = useDispatch();
     const { category, jacket, vest } = useSelector((state: TStore) => state.jacketReducer);
-
+    
+  
     const handleClick = (j: string | any, c: string, p: string | any, n: string, pr: string, scol: string | any, stail: string | any, g:string) => {
 
         if (category === 'jacket') {
@@ -90,7 +91,7 @@ export default function Suits() {
                             </div>
                             <div id="long" className="v-comment-long">
                                 <div className="v-suit-name">{j.name}</div>
-                                <div className="v-rent-cost">Rent aaaa <div className="blank"></div> {j.price} $ </div>
+                                <div className="v-rent-cost">Rent <div className="blank"></div> {j.price} $ </div>
                                 <div className="v-confirm"><FiCheck /> Confirm</div>
                             </div>
                             </>

@@ -13,3 +13,14 @@
 .pointer:hover .header{
     background-color: white;
 }
+@media only screen and (max-width: 768px) {
+    .bprv_tie_wrapper{
+        height:10vh;
+        width: 220%;
+        background-size: 300%;
+        background-repeat: no-repeat;
+        background-position: 49% -6px;
+        transition: all 0.3s;
+    
+    }
+  }

@@ -33,3 +33,10 @@
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(154, 103, 0);
 }
+@media only screen and (max-width: 768px) {
+    .header-up-v{
+        font-size: 9px;
+        width: 120%;
+        margin-left: -10%;
+    }
+  }

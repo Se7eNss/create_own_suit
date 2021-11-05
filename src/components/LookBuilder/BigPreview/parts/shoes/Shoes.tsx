@@ -12,7 +12,7 @@ const Shoes = () => {
     const dispatch = useDispatch()
     const { shoes } = useSelector((state: TStore) => state.jacketReducer)
     return (
-        <div className="col-2 ">
+        <div className="col-3">
             <div className="pointer-shoes" onClick={handleClick}>
                 <p className="text-center header-shoes ">Shoes
                     <hr />

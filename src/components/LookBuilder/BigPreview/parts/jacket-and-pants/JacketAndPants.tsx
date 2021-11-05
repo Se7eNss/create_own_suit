@@ -12,7 +12,6 @@ const JacketAndPants = () => {
     const dispatch=useDispatch();
     const { jacket } = useSelector((state: TStore) => state.jacketReducer)
     return (
-        
         <div className="col-lg-3 col-3 up" >
             <div className="pointer" onClick={handleClick}>
                 <p className="text-center header-up-J">Jacket & Pants
