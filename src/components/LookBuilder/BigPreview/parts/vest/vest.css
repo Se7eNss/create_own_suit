@@ -1,7 +1,8 @@
 .bprv_vest_wrapper{
-        height: 350px;
-        background-size: 400px;
-        background-position: -112px 10px;
+        height: 60vh;
+        width: 100%;
+        background-size: 200%;
+        background-position:51% -5px;
         background-repeat: no-repeat;
         transition: all 0.3s;
 }
@@ -14,8 +15,8 @@
 .header-up-v{
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
-    width: 120px;
-    margin-left: 1.5rem;
+    width: 70%;
+    margin-left: 13%;
     transition: all 0.3s;
 }
 .header-up-v>hr{

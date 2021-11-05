@@ -1,16 +1,26 @@
 .img-wrapper{
     position: relative;
     margin-top: 90px ;
-    margin-left: 150px;
+    margin-left: 25%;
     height: 400px;
     width: 300px;
     cursor: pointer;
     transition: all 0.3s;
+    display: flex;
     
-}
-.img-wrapper:hover {
-    filter: brightness(120%) !important;
 }
 .col-6{
     height: 500px;
 }
+
+@media only screen and (max-width: 992px) {
+    .img-wrapper{
+        margin-left: 35%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .img-wrapper{
+        margin-left: 20%;
+    }
+  }

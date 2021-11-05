@@ -1,9 +1,9 @@
 .bprv_tie_wrapper{
-    height:120%;
-    width: 200px;
-    background-size: 200%;
+    height:50vh;
+    width: 100%;
+    background-size: 400%;
     background-repeat: no-repeat;
-    background-position: -163px -20px;
+    background-position: 49% 0;
     transition: all 0.3s;
 
 }

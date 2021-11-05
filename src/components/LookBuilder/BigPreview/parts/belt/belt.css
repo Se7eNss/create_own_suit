@@ -1,9 +1,15 @@
+.pointer-belt{
+    cursor: pointer;
+    width: 100%;
+    height: 10vh;
+    margin-left: -20px;
+}
 .bprv_belt_wrapper{
-    height:100px;
-    width: 190px;
-    background-size: 400px ;
+    height:100%;
+    width: 100%;
+    background-size: 200%;
     background-repeat: no-repeat;
-    background-position:70% -460px;
+    background-position:70% 95%;
     transition: all 0.3s;
 }
 .pointer:hover .bprv_belt_wrapper{
@@ -16,8 +22,8 @@
     margin-top: -10px;
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
-    width: 120px;
-    margin-left:1.5rem;
+    width: 70%;
+    margin-left:13%;
     transition: all 0.3s;
 }
 .header-belt>hr{
@@ -35,3 +41,14 @@
     border-right: 5px solid transparent;
     border-top: 5px solid rgb(154, 103, 0);
 }
+
+@media only screen and (max-width: 992px) {
+    
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+    .img-wrapper{
+        margin-left: 20%;
+    }
+  }

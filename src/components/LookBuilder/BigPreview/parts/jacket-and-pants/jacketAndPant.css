@@ -1,7 +1,7 @@
 .bprv_jacket_wrapper{
-    width: 120%;
+    width: 100%;
     height: 100%;
-    background-size: 400px;
+    background-size: 120%;
     background-position: -10px 10px;
     background-repeat: no-repeat;
     transition: all 0.3s;
@@ -15,8 +15,8 @@
 .header-up-J{
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
-    width: 90px;
-    margin-left: 95px;
+    width: 40%;
+    margin-left: 20%;
     transition: all 0.3s;
 }
 
