@@ -1,4 +1,4 @@
-export const Tie = () =>{
+export const TieIcon = () =>{
     return(
     <svg width="20" height="10" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 20 10" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><title>Tie Icon</title><path d="M2.5206 3.6519H.4335v2.4347h2.087V3.652z" stroke="#9a6700"></path><path d="M2.5195.4346v8.6956l.7826-.1739c1.4783-.2609 2.7826-.8696 4-1.7391l1.3044-.9565V3.478l-.8696-.6957C6.2587 1.4781 4.4326.6954 2.5195.4346zM19.5635 3.6519h-2.0869v2.4347h2.0869V3.652z" stroke="#9a6700"></path><path d="M17.4776 9.1302V.4346c-1.9131.2608-3.7391 1.0434-5.2174 2.3478l-.8696.6957v2.8695l1.3044.9565c1.2174.8696 2.5217 1.4783 4 1.7392l.7826.087zM8.6078 4.8691H5.7383M14.2602 4.8691h-2.8696" stroke="#9a6700"></path><path d="M11.4789 3.478H8.6094v2.8696h2.8695V3.478z" stroke="#9a6700"></path></svg>
     )
@@ -8,12 +8,12 @@ export const Jacket = () =>{
         <svg width="18" height="16" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><title>Jacket Icon</title><path d="M12.5 2L17 4L16 15H1.99999L1 4L5.5 2" stroke="#9a6700" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6 1L9 14L12 1" stroke="#9a6700" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14.5 10H11.5" stroke="#9a6700" stroke-linecap="round"></path><path d="M14 5L9 15L4 5L6 1H12L14 5Z" stroke="#9a6700" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         )
 }
-export const Shirt = () =>{
+export const ShirtIcon = () =>{
     return(
         <svg width="18" height="16" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><title>Shirt Icon</title><path d="M11.0312 15.5579v-3.7127h4.0411v3.7127M9.0938 15.5581v-11.58" stroke="#9a6700"></path><path d="M13.1343 2.2983l4.1252 1.2376-.7576 12.0221H1.1796L.4219 3.536l4.462-1.2377" stroke="#9a6700"></path><path d="M11.7869.7954c0 1.5912-1.2628 2.9171-2.7782 2.9171S6.2305 2.3865 6.2305.7955" stroke="#9a6700"></path><path d="M9.0922 4.0662l-2.694 2.1216-1.5154-3.8896L6.4824.442h5.0513l1.5996 1.8563-1.347 3.8896-2.694-2.1216z" stroke="#9a6700"></path></svg>
         )
 }
-export const Vest = () =>{
+export const VestIcon = () =>{
     return(
         <svg width="16" height="16" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 16 16" version="1.1" fill="none"><title>Vest Icon</title><path stroke="#9a6700" d="M12.9034 9.3354H9.5117M10.6915.3955L7.7422 10.918v3.6393M5.3086.3955l2.6544 9.9686"></path><path stroke="#9a6700" d="M13.6391 1.3449V3.481c0 2.69.7373 5.3008 1.9908 7.5951l-.0738 3.5602-15.1152-.0791-.0737-3.5602C1.6944 8.7027 2.358 6.0127 2.358 3.3228V1.1867L5.3073.3955h5.3825l2.9493.9494z"></path></svg>
         )
@@ -33,7 +33,7 @@ export const Cufflinks = () =>{
         <svg width="16" height="15" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><title>Cufflinks Icon</title><path d="M11.5547 10.6666V4.4443M12.7407 13.3334h-2.3703c-1.3037 0-2.3704-1.2-2.3704-2.6667h7.1111c0 1.4667-1.0667 2.6667-2.3704 2.6667zM8.8906 6.2222h5.3334M4.4453 9.7779V3.5557M3.261.889h2.3704c1.3037 0 2.3703 1.2 2.3703 2.6666H.8907C.8906 2.0889 1.9572.8889 3.261.8889zM7.1107 8H1.7773" stroke="#9a6700"></path></svg>
         )
 }
-export const Belt = () =>{
+export const BeltIcon = () =>{
     return(
         <svg width="20" height="10" class="IconBase-sc-1eb9083-0 eRtcHV" viewBox="0 0 20 10" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none"><title>Belt Icon</title><rect width="20" height="10" fill="white"></rect><rect x="0.5" y="2.5" width="19" height="5" stroke="#9a6700"></rect><path d="M8.5 3V0.5H16V9.5H8.5V7" stroke="#9a6700"></path><rect x="3.5" y="0.5" width="2" height="9" fill="white" stroke="#9a6700"></rect><path d="M12.5 5H17" stroke="#9a6700" stroke-linecap="round"></path></svg>
         )

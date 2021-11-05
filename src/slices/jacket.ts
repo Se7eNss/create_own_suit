@@ -6,6 +6,7 @@ type TPayload = {
     preview_front_url: string ;
     pants_url:string ;
     preview_full_url:string ;
+    galery_url:string;
   };
   type TPayloadShirt = {
     name:string ;
@@ -13,17 +14,20 @@ type TPayload = {
     preview_full_url: string ;
     preview_tail_url:string ;
     preview_collar_url:string ;
+    galery_url:string;
   };
 type TPayloadVest = {
     name:string ;
     price:string ;
     preview_front_url: string ;
     preview_full_url:string ;
+    galery_url:string;
   };
   type TPayloadOther = {
     name:string ;
     price:string ;
     preview_full_url:string ;
+    galery_url:string;
   };
 type TCategory ={
   category:string;
@@ -96,7 +100,8 @@ const suitSlice = createSlice({
             state.jacket.pants_url = payload.pants_url;
             state.jacket.name=payload.name;
             state.jacket.price=payload.price;
-            state.jacket.preview_full_url=payload.preview_full_url;      
+            state.jacket.preview_full_url=payload.preview_full_url;
+            state.jacket.galery_url=payload.galery_url;   
         },
         changeShirt:(state, {payload}:PayloadAction<TPayloadShirt>)=>{
           state.shirt.preview_collar_url = payload.preview_collar_url ;
@@ -104,33 +109,39 @@ const suitSlice = createSlice({
           state.shirt.name=payload.name;
           state.shirt.price=payload.price;
           state.shirt.preview_full_url=payload.preview_full_url;
+          state.shirt.galery_url=payload.galery_url;
        
       },
         changeVest:(state, {payload}:PayloadAction<TPayloadVest>)=>{
           state.vest.preview_front_url = payload.preview_front_url;
           state.vest.name=payload.name;
           state.vest.price=payload.price;
-          state.vest.preview_full_url=payload.preview_full_url
+          state.vest.preview_full_url=payload.preview_full_url;
+          state.vest.galery_url=payload.galery_url;
           },
         changeTie:(state, {payload}:PayloadAction<TPayloadOther>)=>{
           state.tie.name=payload.name;
           state.tie.price=payload.price;
           state.tie.preview_full_url=payload.preview_full_url
+          state.tie.galery_url=payload.galery_url
           },
         changeSocks:(state, {payload}:PayloadAction<TPayloadOther>)=>{
           state.socks.name=payload.name;
           state.socks.price=payload.price;
           state.socks.preview_full_url=payload.preview_full_url
+          state.socks.galery_url=payload.galery_url
           },
         changeBelt:(state, {payload}:PayloadAction<TPayloadOther>)=>{
           state.belt.name=payload.name;
           state.belt.price=payload.price;
           state.belt.preview_full_url=payload.preview_full_url
+          state.belt.galery_url=payload.galery_url
           },
         changeShoes:(state, {payload}:PayloadAction<TPayloadOther>)=>{
           state.shoes.name=payload.name;
           state.shoes.price=payload.price;
-          state.shoes.preview_full_url=payload.preview_full_url
+          state.shoes.preview_full_url=payload.preview_full_url;
+          state.shoes.galery_url=payload.galery_url
           },
         changeCategory:(state, {payload}: PayloadAction<TCategory>)=>{
           state.category=payload.category
