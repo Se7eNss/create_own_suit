@@ -1,13 +1,14 @@
 .up{
-    height: 420px;
+    height: 60vh;
     margin-top: -50px;
-    margin-left: 50px;
+    margin-left:4%;
 }
 
 .bprv_shirt_wrapper{
     height: 100%;
-    background-size: 400px;
-    background-position: -60px 10px;
+    width: 100%;
+    background-size: 120%;
+    background-position: 49% 10px;
     background-repeat: no-repeat;
     transition: all 0.3s;
 } 
@@ -20,8 +21,8 @@
 .header-up{
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
-    width:40px ;
-    margin-left: 7.5rem;
+    width:15% ;
+    margin-left: 43%;
     transition: all 0.3s;
 }
 .header-up>hr{

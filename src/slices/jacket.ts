@@ -31,8 +31,12 @@ type TCategory ={
 type TPreview ={
   bigPreview:boolean;
 }
+type TLook ={
+  look:boolean;
+}
   const initialState = {
     bigPreview:false,
+    look:false,
     category:"jacket",
     jacket:{
         name:"",
@@ -40,7 +44,7 @@ type TPreview ={
         preview_full_url:"/asset/default-img/default-jacket.png",
         preview_front_url:"",
         galery_url:"",
-        pants_url:""
+        pants_url:"",
     },
     shirt:{
         name:"",
@@ -92,8 +96,7 @@ const suitSlice = createSlice({
             state.jacket.pants_url = payload.pants_url;
             state.jacket.name=payload.name;
             state.jacket.price=payload.price;
-            state.jacket.preview_full_url=payload.preview_full_url;
-         
+            state.jacket.preview_full_url=payload.preview_full_url;      
         },
         changeShirt:(state, {payload}:PayloadAction<TPayloadShirt>)=>{
           state.shirt.preview_collar_url = payload.preview_collar_url ;
@@ -134,7 +137,10 @@ const suitSlice = createSlice({
           },
         changebigPreivew:(state, {payload}: PayloadAction<TPreview>)=>{
             state.bigPreview=payload.bigPreview
-          }
+          },
+        changeLook:(state, {payload}: PayloadAction<TLook>)=>{
+            state.look=payload.look
+          },
     },
 });
 
@@ -142,6 +148,6 @@ const suitSlice = createSlice({
 
 
   export const jacketReducer = suitSlice.reducer;
-  export const {changeSuit,changeCategory,changeVest,changeTie,changeSocks,changeBelt, changeShoes,changeShirt,changebigPreivew} = suitSlice.actions
+  export const {changeSuit,changeCategory,changeVest,changeTie,changeSocks,changeBelt, changeShoes,changeShirt,changebigPreivew ,changeLook} = suitSlice.actions
 
 

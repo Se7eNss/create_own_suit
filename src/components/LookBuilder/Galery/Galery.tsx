@@ -11,7 +11,6 @@ const Galery = () => {
         var suit = suits;
         const dispatch = useDispatch()
         const {category} = useSelector((state:TStore)=>state.jacketReducer)
-        console.log(suit)
     return (
         <div className="col-lg-7 p-4 ">
             <div className="row">

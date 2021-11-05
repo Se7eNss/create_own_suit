@@ -2,17 +2,18 @@ import React from 'react'
 import './jacketAndPant.css'
 import {  useSelector ,useDispatch} from "react-redux";
 import { TStore } from '../../../../../store';
-import { changeCategory ,changebigPreivew} from '../../../../../slices/jacket';
+import { changeCategory ,changebigPreivew, changeLook} from '../../../../../slices/jacket';
 const JacketAndPants = () => {
     const handleClick=()=>{
         dispatch(changeCategory({category:'jacket'}))
         dispatch(changebigPreivew({bigPreview:false}))
+        dispatch(changeLook({look:false}))
     }
     const dispatch=useDispatch();
     const { jacket } = useSelector((state: TStore) => state.jacketReducer)
     return (
         
-        <div className="col-lg-3 up" >
+        <div className="col-lg-3 col-3 up" >
             <div className="pointer" onClick={handleClick}>
                 <p className="text-center header-up-J">Jacket & Pants
                     <hr />

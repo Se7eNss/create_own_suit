@@ -2,11 +2,11 @@
     cursor: pointer;
 }
 .bprv_socks_wrapper{
-  height:100px;
-  width: 90px;
-  background-size: 370px ;
+  height:50vh;
+  width: 100%;
+  background-size: 450% ;
   background-repeat: no-repeat;
-  background-position:6% -70px;
+  background-position:5% -40px;
   transition: all 0.3s;
   
 }
@@ -20,8 +20,8 @@
 .header{
     font-family: 'DM Serif Display', serif;
     font-size: 13px;
-    width: 35px;
-    margin-left:1.4rem;
+    width: 50%;
+    margin-left:27%;
     transition:  all 0.3s;
 }
 .header>hr{

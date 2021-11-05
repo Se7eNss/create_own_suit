@@ -9,13 +9,16 @@ import VestAndCummerbund from './parts/vest-and-cummebund/VestAndCummerbund'
 import Belt from './parts/belt/Belt'
 import { useDispatch, useSelector } from "react-redux";
 import { changebigPreivew} from '../../../slices/jacket';
+import { TStore } from '../../../store'
+
 const Preview = () =>  {
+    const { look } = useSelector((state: TStore) => state.jacketReducer)
     const handleClick=()=>{
         dispatch(changebigPreivew({bigPreview:true}))
     }
     const dispatch =useDispatch();
     return (
-        <div className="col-lg-5">
+        <div className={look ? ('col-lg-6'):('col-lg-5')}>
             <div className="img-wrapper " onClick={handleClick}>
                 <JacketAndPants />
                 <Shirt/>

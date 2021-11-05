@@ -23,7 +23,7 @@ const BigPreview = () => {
                 <Vest/>
                 <JacketAndPants/>
             </div>
-            <div className="row p-5 pt-0">
+            <div className="row p-5 pt-0 down">
                 <Shoes/>
                 <Belt/>
             </div>

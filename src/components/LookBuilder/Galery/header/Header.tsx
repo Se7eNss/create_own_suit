@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import "./header.css";
 import {CgClose} from "react-icons/all";
 import { TStore } from '../../../../store';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { changeLook } from '../../../../slices/jacket';
 
 export default function Header() {
     const {category} = useSelector((state:TStore) => state.jacketReducer)
@@ -15,10 +16,13 @@ export default function Header() {
         }
         else{return category.toUpperCase()}
     };
-    
+    const dispatch = useDispatch()  
+    const handleClick =()=>{
+        dispatch(changeLook({look:true}))
+    }
 
     return (
-        <div className="col-12 h6 header-container">
+        <div className="col-12 h6 header-container" onClick={handleClick}>
             <div className="header-title">{header(category)}</div>
             <CgClose/>
         </div>
